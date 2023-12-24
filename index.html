@@ -3,60 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="html-info-page, personal-information" />
-    <meta
-      name="description"
-      content="This is a basic HTML page provides information about me"
-    />
-    <title>Косенко Микита Романович ІМ-12 варіант 52</title>
+    <meta name="description" content="Maket of site, float, flexboxes" />
+    <meta name="keywords" content="Lab 3, site, flexboxes, float" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Kosenko M. R. IM-12</title>
   </head>
   <body>
-    <div class="personal-info">
-      <div class="name">
-        <h2>Косенко Микита Романович</h2>
-      </div>
-      <div class="birthday">
-        <p>02.09.2004 м. Решетилівка</p>
-      </div>
-      <div class="school">
-        <p>Решетилівський ліцей</p>
-      </div>
-      <div class="university" style="margin-left: 5%">
-        <p>НТУУ "КПІ ім. Ігоря Сікорського"</p>
-      </div>
-    </div>
-    <div class="hobbies">
-      <p>Хоббі:</p>
-      <ul>
-        <li>Автоперегони</li>
-        <li>Більярд</li>
-        <li>Кіберспорт</li>
-      </ul>
-    </div>
-    <div class="films">
-      <p>Улюблені фільми:</p>
-      <ol>
-        <li>Memento</li>
-        <li>Ford проти Ferrari</li>
-        <li>1+1</li>
-      </ol>
-    </div>
-    <div class="my-city">
-      <p>
-        Зальцбург. Місто на півночі Австрії на межі з Баварією. з Німецької
-        назва цього міста перекладається як "соляна гора". <br />
-        Місто й справді лежить поміж гір. на Вершині однієї з них знаходиться
-        замок Гогензальцбург, з якого видно все місто
-      </p>
-    </div>
+    <div class="float_container">
+     
+      <div class="img"><div class="text_container">Img.</div></div>
 
-    <div class="my-city-photo">
-      <a href="https://www.urlaubstracker.de/salzburg-tipps/"
-        ><img
-          width="600"
-          alt="Salzburg"
-          src="https://www.urlaubstracker.de/wp-content/uploads/2016/12/salzburg_winter_nacht-1000x667.jpg"
-      /></a>
+      <div class="text_block"><div class="text_container">Text</div></div>
+
+      <div class="header"><div class="text_container">Text</div></div>
+
+      <div class="footer"><div class="text_container">Img.</div></div>
     </div>
-  </body> 
+    <div class="flex_main_container">
+      <div class="flex_container_content">
+        <div class="img_flex"><div class="text_container">Img.</div></div>
+        <div class="text_block_flex">
+          <div class="text_container">Text</div> 
+        </div>
+      </div>
+      <div class="header_flex"><div class="text_container">Text</div></div>
+      <div class="footer_flex"><div class="text_container">Img.</div></div>
+    </div>
+  </body>
 </html>
