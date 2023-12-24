@@ -1,0 +1,47 @@
+.buttons_container {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  gap: 5px;
+  display: flex;
+}
+
+.goods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.goods-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.goods-card * {
+  margin: 0;
+  padding: 0;
+}
+
+.goods-card img {
+  height: 120px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.goods-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: aqua;
+  position: relative;
+}
+
+.goods-card h3::before {
+  content: "";
+  background: aqua;
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  left: -20px;
+}
