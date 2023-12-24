@@ -8,6 +8,8 @@
       name="description"
       content="This is a basic HTML page provides information about me"
     />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="./script.js"></script>
     <title>Косенко Микита Романович ІМ-12 варіант 52</title>
   </head>
   <body>
@@ -19,10 +21,10 @@
         <p>02.09.2004 м. Решетилівка</p>
       </div>
       <div class="school">
-        <p>Решетилівський ліцей</p>
+        <p id="mySchool" onclick="changeColorGetElementById('mySchool')">Решетилівський ліцей</p>
       </div>
       <div class="university" style="margin-left: 5%">
-        <p>НТУУ "КПІ ім. Ігоря Сікорського"</p>
+        <p id="uni" onclick="changeColorQuerySelector('#uni')">НТУУ "КПІ ім. Ігоря Сікорського"</p>
       </div>
     </div>
     <div class="hobbies">
@@ -57,6 +59,12 @@
           alt="Salzburg"
           src="https://www.urlaubstracker.de/wp-content/uploads/2016/12/salzburg_winter_nacht-1000x667.jpg"
       /></a>
+    </div>
+      <div class="buttons_container">
+      <button onclick="addImage()">Додати</button>
+      <button onclick="enlargeImage()">Збільшити</button>
+      <button onclick="reduceImage()">Зменшити</button>
+      <button onclick="deleteImage()">Видалити</button>
     </div>
   </body> 
 </html>
